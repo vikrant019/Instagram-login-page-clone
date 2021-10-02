@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 400px;
+    border: 1px solid rgba(128, 128, 128, 0.671);
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.signup {
+    width: 400px;
+    border: 1px solid rgba(128, 128, 128, 0.623);
+    padding: 30px;
+    margin: 10px;
+}
+
+.container h1 {
+    padding: 20px;
+    text-align: center;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 35px;
+}
+
+.container input {
+    padding: 10px;
+    margin: 15px;
+    text-justify: center;
+    outline: none;
+}
+
+.container input[ type="button"] {
+    cursor: pointer;
+    background-color: rgb(53, 53, 240);
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 7px;
+    font-size: 0.9rem;
+}
+
+.login {
+    text-align: center;
+}
+
+.login i {
+    font-size: 1.5rem;
+    color: rgb(53, 53, 240);
+}
+
+.login span {
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.login span a {
+    text-decoration: none;
+    color: blue;
+}
+
+.loginwith {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.forgotpass {
+    text-decoration: none;
+    font-size: 15px;
+    color: blue;
+    margin: -10;
+}
+
+.signup p {
+    font-size: 18px;
+}
+
+.signup a {
+    text-decoration: none;
+    color: blue;
+}
+
+.orBorder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 125px;
+    display: inline-block;
+    height: 5px;
+    border-top: 1px solid rgba(128, 128, 128, 0.425);
+}
+
+login .orBorder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.login span {
+    color: rgba(128, 128, 128, 0.897);
+}
